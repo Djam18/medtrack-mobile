@@ -19,7 +19,8 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.medtrack.mobile",
-      "buildNumber": "1"
+      "buildNumber": "2",
+      "jsEngine": "hermes"
     },
     "android": {
       "adaptiveIcon": {
