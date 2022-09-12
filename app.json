@@ -2,7 +2,7 @@
   "expo": {
     "name": "MedTrack",
     "slug": "medtrack-mobile",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -19,7 +19,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.medtrack.mobile",
-      "buildNumber": "2",
+      "buildNumber": "3",
       "jsEngine": "hermes"
     },
     "android": {
@@ -28,8 +28,9 @@
         "backgroundColor": "#FFFFFF"
       },
       "package": "com.medtrack.mobile",
-      "versionCode": 2,
-      "jsEngine": "hermes"
+      "versionCode": 3,
+      "jsEngine": "hermes",
+      "newArchEnabled": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
