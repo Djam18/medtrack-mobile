@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.2.0] - 2023-11-20
+
+### Changed
+- Upgraded to React Native 0.72.6 (Expo SDK 49)
+- React 18.0.0 → 18.2.0
+- **Bridgeless mode** (experimental): JS-to-native calls no longer go through the bridge
+  - Enabled via `RCTAppSetupUseBridgeless(true)` in AppDelegate — experimental only
+  - Provides foundation for full New Architecture
+- **New Hermes debugger**: Chrome DevTools Protocol (CDP) based
+  - `expo start --dev-client` now opens Chrome DevTools instead of old Hermes inspector
+  - Breakpoints, memory profiles, heap snapshots work natively
+- WatermelonDB 0.16 → 0.27.1 (New Architecture compatible)
+- TypeScript 4.6 → 5.1.3
+
+### Notes
+- New Architecture iOS still experimental (enabled on Android from v1.1.0)
+- Bridgeless mode requires all native modules to be TurboModule-compatible
+  - react-native-fitness: not yet TurboModule — kept on old bridge
+
 ## [1.1.0] - 2022-09-12
 
 ### Changed
